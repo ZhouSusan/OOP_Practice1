@@ -5,7 +5,7 @@ class Drum extends Instrument{
         super(name);
     }
 
-    void Sound() {
+    void sound() {
         System.out.println("Drums go boom");
     }
 }
