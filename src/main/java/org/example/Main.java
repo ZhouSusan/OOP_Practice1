@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         Piano piano = new Piano("Piano");
-        piano.sound();
+        Pianist john = new Pianist(piano, "John");
+        john.play();
 
         Drum drums = new Drum("Drums");
         Drummer emma = new Drummer(drums, "Emma");
