@@ -1,6 +1,6 @@
 package org.example;
 
-public class Drum extends Instrument{
+class Drum extends Instrument{
     public Drum(String name) {
         super(name);
     }
